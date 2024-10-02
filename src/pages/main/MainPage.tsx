@@ -5,10 +5,11 @@ import FingeronStars from "../../assets/images/image 54 (1).png"
 import JavaVsPHP from "../../assets/images/image 55.png"
 import q from "../../assets/images/image 55 (2).png"
 import { Link } from 'react-router-dom';
+import AppendDots from '../SliderComponent/AppendDots';
 
 const MainPage = () => {
   return (
-    <main className="container mx-auto py-8">
+    <main className="container mx-auto pt-8 pb-[100px]">
       <section className="flex flex-row justify-between">
         <div className='w-[550px]'>
           <p className="text-[#616161] text-[16px] mb-[27px]">Xceed Blog</p>
@@ -79,6 +80,9 @@ const MainPage = () => {
         <CardList />
       </section>
 
+      <section className='mt-[110px] '>
+        <AppendDots />
+      </section>
     </main>
   );
 };

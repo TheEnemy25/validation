@@ -1,0 +1,18 @@
+.slick-dots {
+  bottom: -30px;
+  justify-content: center;
+  width: 100%;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button {
+  border-radius: 50%;
+  background-color: black;
+}
+
+.slick-dots li.slick-active button {
+  background-color: gray;
+}

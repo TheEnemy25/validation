@@ -8,6 +8,7 @@ module.exports = {
       fontFamily: {
         poppins: ['Poppins', 'sans-serif'],
         'source-sans': ['Source Sans 3', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
       },
       fontWeight: {
         regular: 400,
